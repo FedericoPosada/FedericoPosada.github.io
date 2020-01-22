@@ -4,25 +4,11 @@ body{
 
 html {
   color: #222;
-  font-size: 1em;
   line-height: 1.4;
 }
 
-#logo {
-  float:left;
-  height: 100px;
-}
-
-#navLinks{
-  width: 20%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items:center
-}
-
-a{
-  font-size: 40px;
+nav a{
+  font-size: 25px;
   text-decoration: none;
   color:black;
 }
@@ -32,7 +18,6 @@ a:hover{
 }
 
 nav {
-  position: absolute;
   width:100%;
   display: flex;
   flex-flow: row wrap;
@@ -41,5 +26,91 @@ nav {
   border-bottom: 4px solid black;
 }
 
+#logo {
+  float:left;
+  height: 100px;
+}
 
+#navLinks{
+  width: 30%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items:center;
+  margin-right: 50px;
+}
 
+#photo{
+  border-radius: 50%;
+  border: 4px solid white;
+  width:200px;
+}
+
+#intro{
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 80px;
+}
+
+#intro a{
+  text-decoration: none;
+  color:black;
+}
+
+#intro a:hover{
+  color:orange;
+}
+
+#intro h2 {
+  margin-bottom: 50px;
+}
+
+#intro h4 {
+  margin: 1px;
+}
+
+#skills{
+  position: absolute;
+  left:20%;
+  width: 60%;
+}
+
+#skills h1{
+  text-align: center;
+}
+
+#skillsBox{
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillContainer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-right: 100px;
+}
+
+.skillImg {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.skillDescription{
+  text-align: left;
+  display: inline-flex;
+  flex-flow: column;
+}
+
+.skillDescription h2{
+  text-align: left;
+}
+
+.skillDescription p{
+  margin: 2px;
+}
